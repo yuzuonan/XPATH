@@ -1,4 +1,5 @@
 {
+  "author": "Tangsan99999",
   "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
   "homeUrl": "https://jumi.tv",
   "dcVipFlag": "true",
@@ -44,7 +45,7 @@
   "dtActorR": "",
   "dtDirector": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '導演')]/following-sibling::*/text()",
   "dtDirectorR": "",
-  "dtDesc": "//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '簡介')]/parent::text()",
+  "dtDesc": "//span[@class='sketch content']/text()",
   "dtDescR": "",
   "dtFromNode": "//a[@data-toggle='tab' and contains(@href, 'playlist')]",
   "dtFromName": "/text()",
@@ -101,6 +102,7 @@
         "name": "年份",
         "value": [
           {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
           {"n": "2021","v": "2021"},
           {"n": "2020","v": "2020"},
           {"n": "2019","v": "2019"},
@@ -143,6 +145,7 @@
         "name": "年份",
         "value": [
           {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
           {"n": "2021","v": "2021"},
           {"n": "2020","v": "2020"},
           {"n": "2019","v": "2019"},
@@ -186,6 +189,7 @@
         "name": "年份",
         "value": [
           {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
           {"n": "2021","v": "2021"},
           {"n": "2020","v": "2020"},
           {"n": "2019","v": "2019"},
@@ -229,6 +233,7 @@
         "name": "年份",
         "value": [
           {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
           {"n": "2021","v": "2021"},
           {"n": "2020","v": "2020"},
           {"n": "2019","v": "2019"},

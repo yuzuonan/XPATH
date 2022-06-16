@@ -10,12 +10,13 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/type/(\\S+).html",
-   "cateManual": {
-      "电影":"1",
-    "连续剧":"2",
-    "动漫":"4",
-    "韩剧":"14",
-    "综艺":"3"},    
+  "cateManual": {
+    "电影": "1",
+    "连续剧": "2",
+    "动漫": "4",
+    "韩剧": "14",
+    "综艺": "3"
+  },
   "homeVodNode": "//ul[contains(@class, 'tbox_m')]/li[contains(@class,'vbox')]/a[contains(@class,'vbox_t')]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
@@ -56,11 +57,12 @@
   "dtUrlNameR": "",
   "playUrl": "http://www.lezhutv.com/play/{playUrl}.html",
   "playUa": "",
-  "searchUrl": "http://www.lezhutv.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
-  "scVodNode": "json:list",
-  "scVodName": "name",
-  "scVodId": "id",
-  "scVodIdR": "",
-  "scVodImg": "pic",
-  "scVodMark": ""
+  "searchUrl": "http://www.lezhutv.com/index.php?m=vod-search&wd={wd}",
+  "scVodNode": "//ul[contains(@class, 'tbox_m')]/li[contains(@class,'vbox')]/a[contains(@class,'vbox_t')]",
+  "scVodName": "/@title",
+  "scVodId": "/@href",
+  "scVodIdR": "/detail/(\\w+).html",
+  "scVodImg": "/@data-original",
+  "scVodImgR": "\\S+(http\\S+)",
+  "scVodMark": "/span/text()"
 }
